@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<style>
+		body{
+			background: green;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.block{
+			
+			margin-top: 100px;
+			box-shadow: 0 2px  10px black;
+width: 400px;
+		}
+
+		
+		.block img{
+			display: flex;
+			width: 200px;
+			margin: auto;
+		}
+		.block p{
+			margin: auto;
+			display: flex;
+			justify-content: center;
+		margin-top: -10px;
+
+		}
+		.block2{
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+		margin: auto;
+		width: 80%;
+		border: .1px solid #CFCFCF;
+		}
+		
+		.mt{
+			margin-top: 10px;
+
+		}
+		#mb{
+			margin-bottom: 5px;
+		}
+		#btn{
+			background: green;
+			color: white;
+				transition: 1s;
+		}
+		#btn:hover{
+			background: red;
+			box-shadow: 1px 1px 1px black;
+
+		}
+		#login{
+			margin-top: 20px;
+			opacity: 0.7;
+		}
+		.anchor{
+			color: green;
+		}
+		#login2{
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+		
+		.ha{
+			transform: scale(2);
+		}
+	</style>
+</head>
+<body>
+	
+		
+			<div class="block bg-white  " >
+				<img src="qlik-vector-logo.png" alt="">
+<p id="mb"><i class="media" contenteditable="true">Qlik Sense Sample LDAP login page</i></p>
+<input type="text" class="block2 bg-light" placeholder="username" id="nom" onmouseover ="non()">
+
+<input type="password" class="block2 mt bg-light" placeholder="password" >
+
+
+<button class="block2 mt " id="btn">LOGIN</button>
+<p id="login">Need setup help? <a href="#" class="anchor">QlikLogin - Github</a></p>
+<p id="login2">Welcome - Please log in above</p>
+			</div>
+
+		
+	<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".block"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".block"));
+
+
+
+</script>
+
+<script>
+	
+
+
+</script>
+</body>
+</html>
